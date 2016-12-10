@@ -16,7 +16,7 @@ namespace BlueCat.Web.Controllers
         {
             string username = Request["username"];
             string password = Request["password"];
-            //todo get password
+            //todo user authentication is valid.
 
             UserModel usermodel=new UserModel();
             usermodel.UserName = username;
