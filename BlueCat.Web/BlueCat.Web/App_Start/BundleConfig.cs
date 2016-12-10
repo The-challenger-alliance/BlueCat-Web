@@ -38,6 +38,10 @@ namespace BlueCat.Web
                         "~/Content/themes/base/jquery.ui.datepicker.css",
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
-        }
+
+              bundles.Add(new StyleBundle("~/Content/css").Include(
+                        "~/Content/themes/base/bootstrap-theme.min.css",
+                        "~/Content/themes/base/bootstrap.min.css"));        
+        } 
     }
 }
